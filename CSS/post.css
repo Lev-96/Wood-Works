@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+ul,ol{
+    list-style: none;
+}
+.container{
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+
+/* ************************ MENU ********************** */
+nav .header{
+    background-color: rgb(47, 51, 58);
+}
+nav .header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+nav .header .container .text{
+    color: rgb(255, 112, 4);
+    font-style: italic;
+    font-weight: 100;
+    font-size: 14px;
+    font-family: serif;
+}
+
+nav .header .container .valutes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 300;
+    font-size: 14px;
+    gap: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+nav .header .container .valutes p{
+    transition: all .5s;
+    color: #fff;
+}
+nav .header .container .valutes p:hover{
+    color: rgb(255, 112, 4);
+}
+
+nav .header .container .valutes span{
+    color: rgba(204, 204, 204, 0.233);
+    border-radius: 4px;
+}
+nav .header .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #fff;
+}
+nav .header .heading .logo{
+    margin-left: 100px;
+    cursor: pointer;
+}
+nav .heading .icons ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    font-size: 24px;
+    margin-right: 100px;
+}
+nav .heading .icons ul li a{
+    position: relative;
+    color: #000;
+    transition: all .4s;
+}
+nav .heading .icons ul li a:hover{
+    color: rgb(225, 112, 4);
+}
+nav .heading .icons ul li a i{
+    font-size: 24px;
+}
+nav .heading .icons ul li a span{
+    position: absolute;
+    left: 35px;
+    color: rgba(204, 204, 204, 0.452);
+    border-radius: 8px;
+}
+nav .heading .icons ul li #bag::before{
+    content: "0";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    font-size: 14px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    left: 18px;
+    top: -15px;
+    background-color: rgb(225, 112, 4);
+}
+nav{
+    background-color: rgb(47, 51, 58);
+}
+
+nav ul{
+    max-width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    height: 60px;
+    position: relative;
+}
+
+
+nav ul li a{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    transition: all .5s;
+}
+nav ul li a:hover{
+    color: rgb(225, 112, 4);
+}
+nav ul li a i{
+    font-size: 12px;
+}
+nav > .menu > ul > li > ul{
+    margin-top: 21px;
+    width: 200px;
+    height: auto;
+    position: absolute;
+    background-color: #fff;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius: 5px;
+    visibility: hidden;
+    display: block;
+    opacity: 0;
+    transform: rotateX(90deg);
+    transform-origin: top center;
+    z-index: 10;
+    transition: all .5s;
+}
+nav > .menu > ul > li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    transform: rotateX(0deg);
+}
+nav > .menu > ul > li > ul > li{
+    border-top: 1px solid rgba(204, 204, 204, 0.651);
+    padding: 10px;
+}
+nav > .menu > ul > li > ul > li > a{
+    color: #282828;
+    padding: 5px;
+    transition: all .3s;
+}
+nav > .menu > ul > li > ul > li:hover > a{
+    color: rgb(225, 112, 4);
+}
+.post{
+    background-color: #eee;
+    text-align: center;
+    padding: 100px;
+    font-size: 25px;
+}
+
+header .container #num{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+header .container #num img{
+    width: 100%;
+    margin:10px auto;
+}
+
+header .my-date{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+header .my-date .date{
+    font-size: 12px;
+    color: #000;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 10px 0;
+}
+header .title{
+    margin: 10px 0;
+}
+header .rotates{
+    position: relative;
+}
+header .rotates p{
+    width: 100px;
+    height: 2px;
+    border-radius: 3px;
+    transform: rotate(90deg);
+    margin: 100px 0;
+    background-color: rgb(225, 112, 4);
+}
+header .rotates span{
+    position: absolute;
+    width: 80%;
+    line-height: 2.1;
+    left: 60px;
+    top: -50px;
+}
+header .about2 h3{
+    margin-top: 20px;
+    font-size: 23px;
+}
+header .about3{
+    padding: 30px 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+}
+header .ul-lists{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 70px;
+    margin: 50px 0;
+}
+header .ul-lists ul{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+header .ul-lists ul li{
+    font-size: 15px;
+    font-weight: bold;
+}
+header .ul-lists ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #282828;
+    transition: all .3s
+}
+header .ul-lists ul li a:hover{
+    color: rgb(225, 112, 4);
+}
+header .ul-lists .links{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+/* **************************************** /FOOTER START *********************************** */
+
+footer{
+    background-color: rgb(41, 43, 44);
+    height: auto;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+footer .container .only-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    row-gap: 35px;
+}
+
+footer h3{
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+}
+
+footer p{
+    font-size: 13px;
+    padding: 10px;
+    width: 250px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+footer a{
+    font-size: 13px;
+    width: 250px;
+    letter-spacing: 1px;
+    color: #fff;
+    transition: all .3s;
+    margin: 10px;
+}
+
+footer .container ul > li > a:hover{
+    color: rgb(225, 112, 4);
+    margin: 13px;
+}
+
+footer .adheres a{
+    background-color: rgb(225, 112, 4);
+    position: relative;
+    top: 60px;
+    right: 215px;
+    padding: 10px;
+    font-size: 15px;
+    transition: all .5s;
+}
+footer .adheres a i{
+    font-size: 11px;
+}
+footer .adheres a:hover{
+    background-color: rgb(33, 33, 33);
+    color: #fff;
+}
+
+footer .adheres input{
+    background-color: transparent;
+    border: 1px solid rgba(204, 204, 204, 0.452);
+    width: 200px;
+    height: 55px;
+    transition: all .5s;
+}
+
+footer .adheres input::placeholder{
+    color: #fff;
+    font-size: 13px;
+    padding: 10px;
+}
+
+footer .adheres input:focus{
+    color: rgb(255, 115, 0);
+}
+
+footer .viber a{
+font-size: 18px;
+transition: all .4s;
+}
+footer .viber a:hover{
+    color: rgb(225, 112, 4);
+}
+
+.mini-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer{
+    background-color: #282828;
+}
+
+.mini-footer .finish1{
+    display: flex;
+    color: #fff;
+    gap: 5px;
+}
+
+.mini-footer .finish1 a{
+    color: #fff;
+    transition: all .5s;
+}
+
+.mini-footer .finish1 a:hover{
+    color: rgb(225, 112, 4);
+}
+
+.mini-footer .finish1 i{
+    color: red;
+}
+
+
+/* **************************************** /FOOTER END *********************************** */

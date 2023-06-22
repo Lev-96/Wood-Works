@@ -107,12 +107,12 @@ getDataPosts()
 let slide = document.querySelector('.slide')
 
 let slideInfo = [{
-        title: "Flexible Chair",
+        title: "Walking sticks with gold handle",
         descr: "Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna",
         category: "New Products"
     },
     {
-        title: "Creative Sofa",
+        title: "Canes with brass handle",
         descr: "Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna",
         category: "Best Seller"
     }
@@ -207,8 +207,8 @@ function add(id){
 
 function showCartProducts(){
     let total = 0
-    totalBox.innerHTML = '$0'
-    totalBox1.innerHTML = '$0'
+    totalBox.innerHTML = '0 AMD'
+    totalBox1.innerHTML = '0 AMD'
     let cartItems = document.querySelector('.cartSectionIcon')
 
     cartItems.innerHTML = `

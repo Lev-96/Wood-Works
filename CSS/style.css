@@ -71,8 +71,14 @@ header .heading{
     background-color: #fff;
 }
 header .heading .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 100px;
     cursor: pointer;
+}
+header .header_logo{
+    width: 50px;
 }
 header .heading .icons ul{
     display: flex;
@@ -487,7 +493,7 @@ section .item-icons p{
     width: 40px;
     font-size: 14px;
     font-weight: 400;
-    top: -270px;
+    top: -310px;
     left: 10px;
 }
 section .item-icons .stock{

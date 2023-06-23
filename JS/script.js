@@ -222,8 +222,8 @@ function showCartProducts(){
         if(cartProduct != null){
 
             total += +cartProduct.discount
-            totalBox.innerHTML = `$${total}`
-            totalBox1.innerHTML= `$${total}`
+            totalBox.innerHTML = `${total} AMD`
+            totalBox1.innerHTML= `${total} AMD`
 
             document.querySelector('#cartIcon').style.display = 'none'
             document.querySelector('#cart h4').style.display = 'none'
@@ -234,7 +234,7 @@ function showCartProducts(){
                         <i id="trash" title="Remuve" onclick="remove(${cartProduct.id})" class="fa-solid fa-xmark"></i>
                         <p>Product Name: ${cartProduct.name}</p>
                         <p>Product Category: ${cartProduct.category}</p>
-                        <p>Product Price: ${cartProduct.discount}$</p>
+                        <p>Product Price: ${cartProduct.discount}AMD</p>
                         <div class="countBox">
                             <i onclick="changeCount(${cartProduct.id}, 'minus')" class="fa fa-minus"></i>
                             <span>${cartProduct.count}</span>

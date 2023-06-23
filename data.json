@@ -5,8 +5,8 @@
         "stock":"",
         "name": "Variable Product",
         "category": "New Arrival",
-        "price": "119.0",
-        "discount": "69.0",
+        "price": "119",
+        "discount": "69",
         "image": "./image/Section_img/p.1.jpeg",
         "action": "Select options"
     },
@@ -17,7 +17,7 @@
         "name": "Josefa Queen Size Bed",
         "category": "Featured",
         "price": "",
-        "discount": "199.0",
+        "discount": "199",
         "image": "./image/Section_img/p.2.jpeg",
         "action": "Add to cart"
     },
@@ -28,7 +28,7 @@
         "name": "Minimalist Mid-Century",
         "category": "On Sale",
         "price": "",
-        "discount": "159.0",
+        "discount": "159",
         "image": "./image/Section_img/p.3.jpeg",
         "action": "Add to cart"
     },
@@ -39,7 +39,7 @@
         "name": "Twist Dining Table",
         "category": "Featured",
         "price": "",
-        "discount": "288.0",
+        "discount": "288",
         "image": "./image/Section_img/p.4.jpeg",
         "action": "Add to cart"
     },
@@ -49,8 +49,8 @@
         "stock":"",
         "name": "Round Dining Table ",
         "category": "Tending",
-        "price": "239.0",
-        "discount": "201.0",
+        "price": "239",
+        "discount": "201",
         "image": "./image/Section_img/p.5.jpeg",
         "action": "Out of stock"
     },
@@ -60,8 +60,8 @@
         "stock":"",
         "name": "Hospital Reception Table",
         "category": "On Sale",
-        "price": "399.0",
-        "discount": "349.0",
+        "price": "399",
+        "discount": "349",
         "image": "./image/Section_img/p.6.jpeg",
         "action": "Select options"
     },
@@ -72,7 +72,7 @@
         "name": "High back lounge office",
         "category": "New Arrival",
         "price": "",
-        "discount": "499.0",
+        "discount": "499",
         "image": "./image/Section_img/p.7.jpeg",
         "action": "Add to cart"
     },
@@ -82,8 +82,8 @@
         "stock":"",
         "name": "Bedroom Exclusive Mattress",
         "category": "Tending",
-        "price": "238.0",
-        "discount": "199.0",
+        "price": "238",
+        "discount": "199",
         "image": "./image/Section_img/p.8.jpeg",
         "action": "Select options"
     }

@@ -819,9 +819,10 @@ main .slide
 }
 #cartBoxTotal{
     background-color: #fff;
-    padding: 3px 20px;
+    padding: 3px 5px;
     color: rgb(255, 112, 4);
     font-weight: bold;
+    font-size: 15px;
     border-radius: 3px;
 }
 

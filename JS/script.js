@@ -46,8 +46,8 @@ async function getData(cat, link) {
                     <div class="img-text">
                         <p>${title}...</p>
                         <div id="price">
-                        <span class = "discount">${item.price}$</span>
-                        <span>${item.discount}$</span>
+                        <span class = "discount">${item.price} AMD</span>
+                        <span>${item.discount} AMD</span>
                         </div>
                     </div>  
                 </div>  

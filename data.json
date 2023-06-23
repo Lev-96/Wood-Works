@@ -16,7 +16,7 @@
         "stock":"",
         "name": "Josefa Queen Size Bed",
         "category": "Featured",
-        "price": "",
+        "price": "200",
         "discount": "199",
         "image": "./image/Section_img/p.2.jpeg",
         "action": "Add to cart"
@@ -27,7 +27,7 @@
         "stock":"",
         "name": "Minimalist Mid-Century",
         "category": "On Sale",
-        "price": "",
+        "price": "270",
         "discount": "159",
         "image": "./image/Section_img/p.3.jpeg",
         "action": "Add to cart"
@@ -38,7 +38,7 @@
         "stock":"",
         "name": "Twist Dining Table",
         "category": "Featured",
-        "price": "",
+        "price": "340",
         "discount": "288",
         "image": "./image/Section_img/p.4.jpeg",
         "action": "Add to cart"
@@ -71,7 +71,7 @@
         "stock":"",
         "name": "High back lounge office",
         "category": "New Arrival",
-        "price": "",
+        "price": "580",
         "discount": "499",
         "image": "./image/Section_img/p.7.jpeg",
         "action": "Add to cart"

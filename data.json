@@ -46,7 +46,7 @@
     {
         "id": "5",
         "disc":"-16%",
-        "stock":"STOCK OUT",
+        "stock":"",
         "name": "Round Dining Table ",
         "category": "Tending",
         "price": "239.0",
@@ -78,7 +78,7 @@
     },
     {
         "id": "8",
-        "disc":"-16%",
+        "disc":"",
         "stock":"",
         "name": "Bedroom Exclusive Mattress",
         "category": "Tending",

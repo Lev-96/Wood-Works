@@ -583,52 +583,43 @@ section .item-icons .stock{
     bottom: 20px !important;
 }
 
-/* ****************************** */
+/* *********** Wood background ******************* */
+
 section .sofa{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 170px;
+}
+
+section .sofa-text1{
+    width: 100%;
+}
+section .logo_page{
     position: relative;
-    transition: all .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 150px;
 }
+section .logo_page img{
+    width: 300px;
+}
+section .logo_page h1{
+    font-size: 85px;
+}
+section .bg_page{
+    width: 100%;
+    min-height:100vh;
+    background-image: url("../image/sofa/wood_img.jpeg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
-
-section .sofa .sofa-text{
-    position: absolute;
-    top: 115px;
-    left: 430px;
-}
-section .sofa .sofa-text h3{
-    color: #282828;
-    line-height: 1.3;
-    font-size: 30px;
-}
-section .sofa .sofa-text p{
-    color: #282828;
-    font-weight: 100;
-    font-size: 16px;
-    line-height: 3;
-}
-section .sofa .sofa-text1{
-    position: absolute;
-    top: 115px;
-    right: 430px;
-}
-section .sofa .sofa-text1 h3{
-    color: #282828;
-    line-height: 1.3;
-    font-size: 30px;
-}
-section .sofa .sofa-text1 p{
-    color: #282828;
-    font-weight: 100;
-    font-size: 16px;
-    line-height: 3;
-}
-section .sofa img{
-    width: 550px;
-    margin: 10px;
+    /* background-attachment: scroll;
+    background-position: center; */
 }
 
 /* **************************************** /SECTION START ***********************************  */

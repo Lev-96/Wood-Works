@@ -34,6 +34,43 @@ header .container{
     align-items: center;
     height: 40px;
 }
+header .container .country{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+header .container select{
+    width: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgb(255, 112, 4);
+    background-color: #282828;
+    transition: all .3s;
+}
+header .container select:hover{
+    color: #282828;
+    background-color: rgb(255, 112, 4);
+    cursor: pointer;
+}
+header .container select:focus{
+    outline: none;
+}
+header .container option{
+    padding: 3px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    color: #eee;
+    background-color: #282828;
+    transition: all .3s;
+}
+header .container option:hover{
+    color: #eee;
+    background-color: rgb(255, 112, 4);
+}
 header .container .text{
     color: rgb(255, 112, 4);
     font-style: italic;
@@ -1005,6 +1042,8 @@ main .slide
     color: rgb(225, 112, 4);
     text-align: center;
     padding: 3px;
+    font-size: 13px;
+    font-weight: 700;
 }
 
 /* ************************ openSearch ****************************** */

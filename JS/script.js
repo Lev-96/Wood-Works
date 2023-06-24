@@ -46,8 +46,8 @@ async function getData(cat, link) {
                     <div class="img-text">
                         <p>${title}...</p>
                         <div id="price">
-                        <span class = "discount">${item.price} AMD</span>
-                        <span>${item.discount} AMD</span>
+                        <span class = "discount">${item.price} Դրամ</span>
+                        <span>${item.discount} Դրամ</span>
                         </div>
                     </div>  
                 </div>  
@@ -207,8 +207,8 @@ function add(id){
 
 function showCartProducts(){
     let total = 0
-    totalBox.innerHTML = '0 AMD'
-    totalBox1.innerHTML = '0 AMD'
+    totalBox.innerHTML = '0 Դ'
+    totalBox1.innerHTML = '0 Դ'
     let cartItems = document.querySelector('.cartSectionIcon')
 
     cartItems.innerHTML = `
@@ -222,8 +222,8 @@ function showCartProducts(){
         if(cartProduct != null){
 
             total += +cartProduct.discount
-            totalBox.innerHTML = `${total} AMD`
-            totalBox1.innerHTML= `${total} AMD`
+            totalBox.innerHTML = `${total} Դ`
+            totalBox1.innerHTML= `${total} Դ`
 
             document.querySelector('#cartIcon').style.display = 'none'
             document.querySelector('#cart h4').style.display = 'none'
@@ -234,7 +234,7 @@ function showCartProducts(){
                         <i id="trash" title="Remuve" onclick="remove(${cartProduct.id})" class="fa-solid fa-xmark"></i>
                         <p>Product Name: ${cartProduct.name}</p>
                         <p>Product Category: ${cartProduct.category}</p>
-                        <p>Product Price: ${cartProduct.discount}AMD</p>
+                        <p>Product Price: ${cartProduct.discount} Դ</p>
                         <div class="countBox">
                             <i onclick="changeCount(${cartProduct.id}, 'minus')" class="fa fa-minus"></i>
                             <span>${cartProduct.count}</span>

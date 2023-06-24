@@ -24,10 +24,18 @@
             <div class="text">
                 <p>Default Welcome Message</p>
             </div>
-            <div class="valutes">
-                <p>English &#5121;</p>
+            <div class="country">
+                <select name="country" id="country">
+                    <option value="English">English</option>
+                    <option value="Հայերեն">Հայերեն</option>
+                    <option value="Русский">Русский</option>
+                </select>
                 <span>|</span>
-                <p>AMD &#5121;</p>
+                <select name="valute" id="course">
+                    <option value="usd">USD</option>
+                    <option value="amd">AMD</option>
+                    <option value="rub">RUB</option>
+                </select>
             </div>
         </div>
         <div class="heading">
@@ -40,12 +48,6 @@
                     <li>
                         <a href="#" onclick="showSearch()" id="openSearch">
                             <i class="ri-search-line"></i>
-                            <span>|</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="ri-user-line"></i>
                             <span>|</span>
                         </a>
                     </li>
@@ -241,7 +243,6 @@
                 <div class="account">
                     <h3>MY ACCOUNT</h3>
                     <ul>
-                        <li><a href="#">Login</a></li>
                         <li><a href="#">My Cart</a></li>
                         <li><a href="#">Wishlist</a></li>
                         <li><a href="#">Compare</a></li>
@@ -250,25 +251,20 @@
                 </div>
                 <div class="adheres">
                     <h3>NEWSLETTER</h3>
+                    <!-- <input type="name" name="name" placeholder="User your n` -->
                     <input type="email" placeholder="Enter E-Mail Adheres">
                     <a href="#" id="bts"><i class="fa-solid fa-paper-plane"></i> Subscribe</a>
                 </div>
             </div>
             <div class="viber">
-                <a href="#">
+                <a href="https://www.facebook.com/artush.shahverdyan.1" target="_blank">
                     <i class="fa-brands fa-facebook"></i>
                 </a>    
-                <a href="#">
-                    <i class="fa-brands fa-twitter"></i>
-                </a>
-                <a href="#">
-                    <i class="fa-brands fa-linkedin"></i>
+                <a href="https://www.tiktok.com/@payte__nverner?_t=8dQoN5y7eBG" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
                 </a>
                 <a href="#">
                     <i class="fa-brands fa-youtube"></i>
-                </a>
-                <a href="#">
-                    <i class="fa-brands fa-pinterest"></i>
                 </a>
             </div>
         </div>
@@ -299,7 +295,7 @@
         </div>
         <div class="cartSectionIcon"></div>
         <div class="cursorpoint">
-            <p>View Cart</p>
+            <p>To pay</p>
             <div>
                 <p class="cartTotal">0.00 AMD</p>
             </div>

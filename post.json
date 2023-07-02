@@ -5,7 +5,7 @@
         "descr": "Consectetur adipisicing elit, do eiusmod tempor incididunt dolore magna aliqua. Ut enim adminim veniam nostrud exercitation",
         "author": "Admin",
         "date": "14 september, 2021",
-        "image": "./image/Nkar/wood_1.jpeg"
+        "image": "./image/wood_post/wood_1.jpeg"
     },
     {
         "id": "2",
@@ -13,7 +13,7 @@
         "descr": "Consectetur adipisicing elit, do eiusmod tempor incididunt dolore magna aliqua. Ut enim adminim veniam nostrud exercitation",
         "author": "Admin",
         "date": "14 september, 2021",
-        "image": "./image/Nkar/wood_2.jpeg"
+        "image": "./image/wood_post/wood_2.jpeg"
     },
     {
         "id": "3",
@@ -21,6 +21,6 @@
         "descr": "Consectetur adipisicing elit, do eiusmod tempor incididunt dolore magna aliqua. Ut enim adminim veniam nostrud exercitation",
         "author": "Admin",
         "date": "14 september, 2021",
-        "image": "./image/Nkar/wood_3.jpeg"
+        "image": "./image/wood_post/wood_3.jpeg"
     }
 ]

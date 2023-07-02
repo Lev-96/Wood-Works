@@ -649,7 +649,7 @@ section .logo_page h1{
 section .bg_page{
     width: 100%;
     min-height:100vh;
-    background-image: url("../image/sofa/wood_img.jpeg");
+    background-image: url("../image/wood/wood_img.jpeg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;

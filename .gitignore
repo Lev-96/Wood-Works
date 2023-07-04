@@ -1,2 +1,5 @@
-./vendor
-./server/database
+#ignore folders and files;
+.idea
+/vendor
+/server/database
+/composer.lock
